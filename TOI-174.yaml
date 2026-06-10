@@ -1,0 +1,11 @@
+targets:
+  - HD 23472
+
+parameters:
+  MODE: DATE
+  DATE_START: '2018-07-25'
+  DATE_END:   '2021-11-15'
+  PERIOD_MAX: 42
+  SDE_THRESHOLD: 9.0
+  SNR_THRESHOLD: 3.0
+  MIN_TRANSITS: 2
