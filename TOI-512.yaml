@@ -1,0 +1,8 @@
+targets:
+  - TOI-512
+parameters:
+  MODE: FAST
+  PERIOD_MAX: 80
+  SDE_THRESHOLD: 9.0
+  SNR_THRESHOLD: 4.0
+  MIN_TRANSITS: 2

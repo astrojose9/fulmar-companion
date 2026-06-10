@@ -2,7 +2,7 @@
 
 **Author:** José Rodrigues (ORCID [0000-0001-5164-3602](https://orcid.org/0000-0001-5164-3602))
 
-> **Note:** This repository accompanies the PhD thesis *Mitigatin stellar activity to characterise Earth-sized exoplanets* (University of Porto / FCUP, 2026). It is shared for reproducibility purposes. A cleaned, standalone version is in preparation for publication.
+> **Note:** This repository accompanies the PhD thesis *Mitigating stellar activity to characterise Earth-sized exoplanets* (University of Porto / FCUP, 2026). It is shared for reproducibility purposes. A cleaned, standalone version is in preparation for publication.
 
 ---
 
@@ -17,7 +17,7 @@ FULMAR analyses TESS 2-minute cadence light curves to identify transiting planet
 5. Applies basic vetting (SDE, SNR, odd/even, secondary eclipse, depth scatter).
 6. Exports cleaned light curves and a starter `pyorbit` configuration for joint photometry + RV modelling.
 
-The example configuration `TOI-174.yaml` recovers all five planets of HD 23472 published in (Barros et al. (2022))(https://ui.adsabs.harvard.edu/abs/2022A&A...665A.154B)
+The example configuration `TOI-512.yaml` should recover TOI-512b (Rodrigues et (2025))(https://ui.adsabs.harvard.edu/abs/2025A%26A...695A.237R/abstract). `TOI-174.yaml` recovers all five planets of HD 23472 published in (Barros et al. (2022))(https://ui.adsabs.harvard.edu/abs/2022A&A...665A.154B)
 
 ---
 
@@ -28,7 +28,8 @@ The example configuration `TOI-174.yaml` recovers all five planets of HD 23472 p
 | `fulmar.py` | Main entry point |
 | `fulmar_utils.py` | Helper functions (detrending, TLS wrapper, output writers) |
 | `fulmar_config.py` | Default configuration (overridden by a run `.yaml`) |
-| `TOI-174.yaml` | Example run file — HD 23472 / TOI-174 (5-planet system) |
+| `TOI-174.yaml` | Example run file - HD 23472 / TOI-174 (5-planet system) |
+| `TOI-512.yaml` | Example run file - TOI-512 (1-planet system) |
 | `FULMAR_companion_clean.ipynb` | Companion notebook for interactive inspection |
 
 ---
