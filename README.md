@@ -2,7 +2,7 @@
 
 **Author:** José Rodrigues (ORCID [0000-0001-5164-3602](https://orcid.org/0000-0001-5164-3602))
 
-> **Note:** This repository accompanies the PhD thesis *Mitigatin stellar activity to characterise Earth-sized exoplanets* (University of Porto / FCUP, 2026). It is shared for reproducibility purposes. A cleaned, standalone version is in preparation for publication.
+> **Note:** This repository accompanies the PhD thesis *Mitigating stellar activity to characterise Earth-sized exoplanets* (University of Porto / FCUP, 2026). It is shared for reproducibility purposes. A cleaned, standalone version is in preparation for publication.
 
 ---
 
